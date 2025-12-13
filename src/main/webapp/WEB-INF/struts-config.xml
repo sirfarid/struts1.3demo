@@ -4,7 +4,7 @@
 
 <struts-config>
   <form-beans>
-    <form-bean name="helloForm" type="org.example.form.HelloForm" />
+    <form-bean name="helloForm" type="org.example.form.HelloForm"/>
     <form-bean name="loginForm" type="org.example.form.LoginForm"/>
   </form-beans>
 
@@ -19,7 +19,7 @@
             name="helloForm"
             type="org.example.action.HelloAction"
             input="/hello.jsp">
-      <forward name="success" path="/welcome.jsp" />
+      <forward name="success" path="/welcome.jsp"/>
     </action>
 
     <!-- Login Action -->
@@ -46,5 +46,5 @@
     </action>
   </action-mappings>
 
-  <message-resources parameter="org.example.i18n.MessageBundle" />
+  <message-resources parameter="org.example.i18n.MessageBundle"/>
 </struts-config>
